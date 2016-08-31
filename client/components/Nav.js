@@ -25,6 +25,7 @@ export default () => (
           <li><Link to="/register"><i className="fa fa-user fa-fw" /> Register</Link></li>
           <li><Link to="/login"><i className="fa fa-key fa-lock" /> Login</Link></li>
           <li><Link to="/logout"><i className="fa fa-key fa-unlock" /> Logout</Link></li>
+          <li><Link to="/CreateProfile"><i className="fa fa-key fa-unlock" /> Create Profile</Link></li>
         </ul>
       </div>
     </div>

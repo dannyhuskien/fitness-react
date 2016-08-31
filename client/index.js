@@ -8,6 +8,7 @@ import Faq from './components/Faq';
 import Register from './components/Register';
 import Login from './components/Login';
 import Logout from './components/Logout';
+import CreateProfile from './components/CreateProfile';
 
 import React from 'react';
 import { render } from 'react-dom';
@@ -22,6 +23,7 @@ render(
       <Route path="register" component={Register} />
       <Route path="login" component={Login} />
       <Route path="logout" component={Logout} />
+      <Route path="createProfile" component={CreateProfile} />
     </Route>
   </Router>
   , document.getElementById('root'));
